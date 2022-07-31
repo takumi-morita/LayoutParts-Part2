@@ -1,6 +1,6 @@
-	@charset "UTF-8";
+@charset "UTF-8";
 
-	.text {
+.text {
 	width: 500px;
 	margin: 0 auto;
 	padding: 20px;
@@ -10,9 +10,9 @@
 	border: 5px solid #8f5a0a;
 	border-radius: 30px;
 	position: relative;
-	}
+}
 
-	.text::before {
+.text::before {
 	content: "";
 	border: 25px solid transparent;
 	border-top: 25px solid #8f5a0a;
@@ -20,9 +20,9 @@
 	top: 100%;
 	left:50px;
 	transform: translateX(-50%);
-	}
+}
 
-	.text::after {
+.text::after {
 	content: "";
 	position: absolute;
 	border: 18px solid transparent;
@@ -30,4 +30,4 @@
 	top: 100%;
 	left:50px;
 	transform: translateX(-50%);
-	}
+}

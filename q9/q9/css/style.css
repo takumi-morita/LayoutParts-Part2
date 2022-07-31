@@ -127,6 +127,7 @@
 	background: #ffffff;
 	padding: 20px;
 	transition: .5s;
+	margin-right: -1px;
 }
 
 .text-box:hover {
@@ -134,10 +135,6 @@
 	z-index: 1;
 }
 
-.text-box:nth-child(1),
-.text-box:nth-child(2) {
-	border-right: none;
-}
 
 .img {
 	background: url(../image/1005-200x300.jpg)no-repeat center;
