@@ -1,25 +1,25 @@
 @charset "UTF-8";
 .img {
-    background: url(../../image/coffee-background.jpg);
-    height: 500px;
+	background: url(../../image/coffee-background.jpg);
+	height: 500px;
 }
 
 /*---------------------------------------------------------*/
 .img-no-repeat {
-    background: url(../../image/coffee-background.jpg)no-repeat;
-    height: 500px;
+	background: url(../../image/coffee-background.jpg)no-repeat;
+	height: 500px;
 }
 
 /*---------------------------------------------------------*/
 .img-center {
-    background: url(../../image/coffee-background.jpg)no-repeat center;
-    height: 500px;
-    background-size: cover;
+	background: url(../../image/coffee-background.jpg)no-repeat center;
+	height: 500px;
+	background-size: cover;
 }
 
 /*---------------------------------------------------------*/
 .img-all {
-    background: url(../../image/coffee-background.jpg)no-repeat center;
-    height: 500px;
-    background-size: contain;
+	background: url(../../image/coffee-background.jpg)no-repeat center;
+	height: 500px;
+	background-size: contain;
 }
